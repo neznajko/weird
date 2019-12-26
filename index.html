@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+  <script type="text/javascript" src="DONTOUCH.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="split left">
+    <div class="boom">
+      <form id="fom">
+	m: <input type="number" step = "1" name="m" value="1">
+	n: <input type="number" step = "1" name="n" value="2">
+      </form>
+      <br><br>
+      <button onclick="showprog()">clck</button>
+      <br><br>
+      <table>
+	<thead>
+	  <tr>
+	    <th>nmbr</th>
+	    <th>inst</th>
+	  </tr>
+	</thead>
+	<tbody id="prog"></tbody>
+      </table>
+      <br>
+    </div>
+  </div>
+  <div class="split right">
+    <div class="boom">
+      <button onclick="mafunc()">boom</button>
+      <br>
+      <p id="str"></p>
+      <table>
+	<thead>
+	  <tr>
+	    <th>nmbr</th>
+	    <th>match</th>
+	    <th>subs</th>
+	    <th>str</th>
+	  </tr>
+	</thead>
+	<tbody id="dump"></tbody>
+      </table>
+      <br>
+    </div>
+  </div>
+</body>
+</html>
+<!--
+ + change heading of first table
+ + print str after boom button
+ - create git repository and upload files
+ -->
