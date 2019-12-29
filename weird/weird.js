@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const fs = require('fs');
 // read a program file as a string:
-var prog = fs.readFileSync('./wierd.prog').toString();
+var prog = fs.readFileSync('./weird.prog').toString();
 // get a list of instructions and discard empty elements:
 prog = prog.split('\n').filter(Boolean); 
 // return [match, subs] from an instruction: <match, subs>
