@@ -85,23 +85,25 @@ We also need an algorithm for transferring copy of a sub-string, for example con
 and thus solving the problem. Instead of carry or borrow flag this time we can use a
 transfer flag marked by *t* and duplicating ze digit previous to t with a capital 
 letter: [0-9] => [A-J], than veneva we match for example A9 substitute with 9A and than
-converting back to digit after ze equal sign that is substitute A= with =0 and so on:
+converting back to digit after ze equal sign, that is substitute A= with =0 and so on:
 
 ![copy](pix/copy.png)
 
-### ▇▁▇▁▇ ∃ ▇ ▛ ▟
+### ▇▁▇▁▇ ∃ ▇ ┍ ↁ 
 
-I've started learning *javascript*, although I had some experience when was creating *gif*
-animations with *Photoshop* before, but I have already forgotten anything so I started
-from scratch and decided to write the program using *javascript*:). Initially the program
-was written to run in the terminal (requires *Node.js*) but probably it's more dull than
-weird to use a program language created for web browsers for this purposes and decided to
-write an *index.html* which runs the program through *DONTOUCH* script. Basically we have
-to combine the algorithms above for the full program by first calling the services of
-copy Ninja Kakashy, than subtracting from the duplicated string, and incrementing the
-remaining zero until we run out of equal signs. The only things that left are to synchronize the
-auxiliary and guard characters and details like removing unnecessary characters etc.,
-here is the list of program instructions:
+I've started learning *javascript*, although I had some experience before creating
+animated *gifs* with ***Photoshop** ExtendScript Toolkit*, but I have already forgotten
+almost anything, so I've started learinging from scratch and decided to write this
+program using *javascript*:).
+Initially the program was written to run only from terminal (requires *Node.js*), but
+probably it's more dull than weird to use a program language created for web browsers,
+for such purposes and decided to write an *index.html* which access the program through
+*DONTOUCH* script.
+Basically we have to combine the algorithms above for the full program by first calling
+the services of copy Ninja Kakashy, and than using the *addition algorithm* on the
+duplicated string. The only things that remains are to synchronize the auxiliary and
+guard characters plus details like removing unnecessary characters etc., here is the list
+of program's instructions and the output of adding *1* and *2*:
 
 ```
 1	<%0,0%>
@@ -302,25 +304,24 @@ here is the list of program instructions:
 196	<9#,c0>
 197	<?,=>
 ```
-And here is the dump of adding *1* and *2*:
 
 ```
 1+2=?
 nmbr 	match 	subs 	str
-144	2=?	t2?2$	1+t2?2$
-141	+t	t+%	1t+%2?2$
-2	%2	2%	1t+2%?2$
-10	%?	?#	1t+2?#2$
-132	1t	t1B	t1B+2?#2$
-122	B+	+B	t1+B2?#2$
-23	B2	2B	t1+2B?#2$
-112	B?	?1	t1+2?1#2$
-152	t		1+2?1#2$
-166	2$	1$#	1+2?1#1$#
-165	1$	0$#	1+2?1#0$##
-153	#0	#	1+2?1#$##
-154	#$		1+2?1##
-187	1#	2	1+2?2#
-188	2#	3	1+2?3
-196	?	=	1+2=3
+145	2=?	t2?2$	1+t2?2$
+142	+t	t+%	1t+%2?2$
+3	%2	2%	1t+2%?2$
+11	%?	?#	1t+2?#2$
+133	1t	t1B	t1B+2?#2$
+123	B+	+B	t1+B2?#2$
+24	B2	2B	t1+2B?#2$
+113	B?	?1	t1+2?1#2$
+153	t		1+2?1#2$
+167	2$	1$#	1+2?1#1$#
+166	1$	0$#	1+2?1#0$##
+154	#0	#	1+2?1#$##
+155	#$		1+2?1##
+188	1#	2	1+2?2#
+189	2#	3	1+2?3
+197	?	=	1+2=3
 ```

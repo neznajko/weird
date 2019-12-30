@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const fs = require('fs');
 // read a program file as a string:
-var prog = fs.readFileSync('./weird.prog').toString();
+let prog = fs.readFileSync('./weird.prog').toString();
 // get a list of instructions and discard empty elements:
 prog = prog.split('\n').filter(Boolean); 
 // return [match, subs] from an instruction: <match, subs>
@@ -17,10 +17,10 @@ const zinst = prog.length;
 for (let j = 0; j < zinst; j++) {
     prog[j] = unpack(prog[j]);
 }
-var nombres = [13, 8];
-var str = `${nombres[0]}+${nombres[1]}=?`;
+let nombres = [13, 8];
+let str = `${nombres[0]}+${nombres[1]}=?`;
 console.log(str);
-var match, subs;
+let match, subs;
 // CE7SHE
 for (let j = 0; j < zinst; j++) {
     match = prog[j][0];

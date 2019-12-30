@@ -241,7 +241,7 @@ function mafunc() {
                     cell_match = row.insertCell(1);
                      cell_subs = row.insertCell(2);
                       cell_str = row.insertCell(3);
-	 cell_nmbr.textContent = `${j}`;
+	 cell_nmbr.textContent = `${j+1}`;
 	cell_match.textContent = match;
 	 cell_subs.textContent = subs;
 	  cell_str.textContent = str;
