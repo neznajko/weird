@@ -1,3 +1,4 @@
+![Large](pix/Large.png)
 # <sub>P r b l</sub> *5*
 ***B**efore* starting, someone knows what's happening in the Middle Earth? If no one's backing off It doesn't look good.
  
