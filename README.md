@@ -87,7 +87,7 @@ transfer flag marked by *t* and duplicating ze digit previous to t with a capita
 letter: [0-9] => [A-J], than veneva we match for example A9 substitute with 9A and than
 converting back to digit after ze equal sign, that is substitute A= with =0 and so on:
 
-![copy](pix/copy.png)
+![copy](pix/copy2.png)
 
 ### ▇▁▇▁▇ ∃ ▇ ┍ ↁ 
 
@@ -325,3 +325,7 @@ nmbr 	match 	subs 	str
 189	2#	3	1+2?3
 197	?	=	1+2=3
 ```
+
+![Bob](pix/Bob.png)
+
+https://youtu.be/3cTJie2YD6k
