@@ -1,8 +1,8 @@
-# <sub>P r b l</sub> *5* 
-[<sub>B</sub>o O  <sup>m</sup>    ](https://ioinformatics.org/files/ioi1990round1.pdf)
-, Okay to be honest I was thinking, that this will be the first
-*yoi* problem I couldn't solve, becoz it's completely weird stuff, that
-seems has nothing in common with modern programming. I'm not very sure,
+# <sub>P r b l</sub> *5*
+***B**efore* starting, someone knows what's happening in the Middle Earth? If no one's backing off It doesn't look good.
+ 
+[<sub>B</sub>o o  <sup>m</sup>    ](https://ioinformatics.org/files/ioi1990round1.pdf) **O**kay, I was thinking, that I couldn't solve that one, becoz it's completely weird stuff, that
+seems has nothing in common with modern programming. Not very sure,
 but I think one of the definitions of algorithm or computational method
 or whatever the correct term is, is based on this substitutions approach,
 originating from the work of a *Soviet* mathematician **Andrey Markov**,
@@ -328,4 +328,4 @@ nmbr 	match 	subs 	str
 
 ![Bob](pix/Bob.png)
 
-https://youtu.be/3cTJie2YD6k
+https://youtu.be/VmhCwRFW6-A
